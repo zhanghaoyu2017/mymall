@@ -1,6 +1,11 @@
 package com.zhanghaoyu.mymall.user.service;
 
 
+import com.zhanghaoyu.mymall.user.bean.UmsMember;
+import com.zhanghaoyu.mymall.user.bean.UmsMemberReceiveAddress;
+
+import java.util.List;
+
 /**
  * @InterfaceName UserService
  * @Description T0D0
@@ -9,4 +14,8 @@ package com.zhanghaoyu.mymall.user.service;
  * @Version 1.0
  **/
 public interface UserService {
+
+    List<UmsMember> getAllUser();
+
+    List<UmsMemberReceiveAddress> getReceiveAddressByMemberId(String memberId);
 }
