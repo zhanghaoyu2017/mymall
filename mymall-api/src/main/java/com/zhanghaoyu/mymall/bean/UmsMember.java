@@ -1,19 +1,16 @@
-package com.zhanghaoyu.mymall.user.bean;
+package com.zhanghaoyu.mymall.bean;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.Date;
 
-/**
- * @ClassName UmsMember
- * @Description T0D0
- * @Author zhanghaoyu
- * @Date 2021/2/4-10:56
- * @Version 1.0
- **/
-public class UmsMember implements Serializable {
+public class UmsMember implements Serializable{
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String memberLevelId;
     private String username;
@@ -23,16 +20,32 @@ public class UmsMember implements Serializable {
     private int status;
     private Date createTime;
     private String icon;
-    private int gender;
+    private String gender;
     private Date birthday;
     private String city;
     private String job;
     private String personalizedSignature;
-    private int sourceType;
+    private String sourceType;
     private int integration;
     private int growth;
     private int luckeyCount;
     private int historyIntegration;
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getSourceType() {
+        return sourceType;
+    }
+
+    public void setSourceType(String sourceType) {
+        this.sourceType = sourceType;
+    }
 
     public String getId() {
         return id;
@@ -106,13 +119,6 @@ public class UmsMember implements Serializable {
         this.icon = icon;
     }
 
-    public int getGender() {
-        return gender;
-    }
-
-    public void setGender(int gender) {
-        this.gender = gender;
-    }
 
     public Date getBirthday() {
         return birthday;
@@ -146,13 +152,6 @@ public class UmsMember implements Serializable {
         this.personalizedSignature = personalizedSignature;
     }
 
-    public int getSourceType() {
-        return sourceType;
-    }
-
-    public void setSourceType(int sourceType) {
-        this.sourceType = sourceType;
-    }
 
     public int getIntegration() {
         return integration;
@@ -185,4 +184,9 @@ public class UmsMember implements Serializable {
     public void setHistoryIntegration(int historyIntegration) {
         this.historyIntegration = historyIntegration;
     }
+
+
+
+
+
 }

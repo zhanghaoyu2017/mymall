@@ -1,7 +1,7 @@
 package com.zhanghaoyu.mymall.user.mapper;
 
 
-import com.zhanghaoyu.mymall.user.bean.UmsMember;
+import com.zhanghaoyu.mymall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;

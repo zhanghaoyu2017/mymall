@@ -1,10 +1,10 @@
 package com.zhanghaoyu.mymall.user.service.impl;
 
-import com.zhanghaoyu.mymall.user.bean.UmsMember;
-import com.zhanghaoyu.mymall.user.bean.UmsMemberReceiveAddress;
+import com.zhanghaoyu.mymall.service.UserService;
+import com.zhanghaoyu.mymall.bean.UmsMember;
+import com.zhanghaoyu.mymall.bean.UmsMemberReceiveAddress;
 import com.zhanghaoyu.mymall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.zhanghaoyu.mymall.user.mapper.UserMapper;
-import com.zhanghaoyu.mymall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;

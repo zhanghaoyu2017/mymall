@@ -1,11 +1,10 @@
 package com.zhanghaoyu.mymall.user.controller;
 
-import com.zhanghaoyu.mymall.user.bean.UmsMember;
-import com.zhanghaoyu.mymall.user.bean.UmsMemberReceiveAddress;
-import com.zhanghaoyu.mymall.user.service.UserService;
+import com.zhanghaoyu.mymall.service.UserService;
+import com.zhanghaoyu.mymall.bean.UmsMember;
+import com.zhanghaoyu.mymall.bean.UmsMemberReceiveAddress;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 

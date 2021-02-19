@@ -1,6 +1,6 @@
 package com.zhanghaoyu.mymall.user.mapper;
 
-import com.zhanghaoyu.mymall.user.bean.UmsMemberReceiveAddress;
+import com.zhanghaoyu.mymall.bean.UmsMemberReceiveAddress;
 import tk.mybatis.mapper.common.Mapper;
 
 /**

@@ -1,8 +1,8 @@
-package com.zhanghaoyu.mymall.user.service;
+package com.zhanghaoyu.mymall.service;
 
 
-import com.zhanghaoyu.mymall.user.bean.UmsMember;
-import com.zhanghaoyu.mymall.user.bean.UmsMemberReceiveAddress;
+import com.zhanghaoyu.mymall.bean.UmsMember;
+import com.zhanghaoyu.mymall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 

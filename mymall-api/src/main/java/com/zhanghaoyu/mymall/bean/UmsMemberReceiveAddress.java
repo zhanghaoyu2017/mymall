@@ -1,4 +1,4 @@
-package com.zhanghaoyu.mymall.user.bean;
+package com.zhanghaoyu.mymall.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;
