@@ -12,6 +12,8 @@
         <module>mymall-parent</module>
         <module>mymall-api</module>
         <module>mymall-common-util</module>
+        <module>mymall-service-util</module>
+        <module>mymall-web-util</module>
     </modules>
 
 
